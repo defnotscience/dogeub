@@ -17,8 +17,8 @@ const QuickLinks = ({ cls, nav = true, navigating }) => {
 
   const defaultLinks = [
     { link: 'https://google.com', icon: 'https://google.com/favicon.ico', name: 'Google' },
-    { link: 'https://facebook.com', icon: 'https://facebook.com/favicon.ico', name: 'Facebook' },
-    { link: 'https://quora.com', icon: 'https://quora.com/favicon.ico', name: 'Quora' },
+    { link: 'https://facebook.com', icon: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/2021_Facebook_icon.svg/32px-2021_Facebook_icon.svg.png', name: 'Facebook' },
+    { link: 'https://quora.com', icon: 'https://cdn-icons-png.flaticon.com/32/174/174865.png', name: 'Quora' },
     { link: 'https://github.com', icon: 'https://github.com/favicon.ico', name: 'GitHub' },
   ];
 

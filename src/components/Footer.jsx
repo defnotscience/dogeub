@@ -15,7 +15,7 @@ const Footer = memo(() => {
 
   return (
     <div className="w-full fixed bottom-0 flex items-end justify-between p-2">
-      {options.donationBtn !== false && (
+      {/* {options.donationBtn !== false && (
         <a
           href="https://ko-fi.com/I3I81MF4CH"
           target="_blank"
@@ -28,7 +28,7 @@ const Footer = memo(() => {
           <HeartPlus className="w-4" />
           Support us
         </a>
-      )}
+      )} */}
       <div className="flex gap-2 items-center">
         <div
           className={clsx(

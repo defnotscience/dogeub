@@ -232,8 +232,8 @@ export const meta = [
   {
     option: 'Default',
     value: {
-      tabName: `Home | Schoology`,
-      tabIcon: '/assets/img/schoology.ico',
+      tabName: `Harper's Tutoring`,
+      tabIcon: '/icon.svg',
     },
   },
   {

@@ -107,13 +107,13 @@ export const customizeConfig = ({ options, updateOption }) => ({
     type: 'switch',
     action: (b) => setTimeout(() => updateOption({ showTb: b }), 100),
   },
-  6: {
-    name: 'Donation button',
-    desc: 'Toggle whether you want the "Support us" button to show.',
-    value: options.donationBtn ?? true,
-    type: 'switch',
-    action: (b) => setTimeout(() => updateOption({ donationBtn: b }), 100),
-  },
+  // 6: {
+  //   name: 'Donation button',
+  //   desc: 'Toggle whether you want the "Support us" button to show.',
+  //   value: options.donationBtn ?? true,
+  //   type: 'switch',
+  //   action: (b) => setTimeout(() => updateOption({ donationBtn: b }), 100),
+  // },
 });
 
 export const browsingConfig = ({ options, updateOption }) => ({
