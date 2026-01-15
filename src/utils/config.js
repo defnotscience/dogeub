@@ -222,11 +222,18 @@ export const themeConfig = [
 ];
 
 export const meta = [
+  // {
+  //   option: 'Default',
+  //   value: {
+  //     tabName: `v5-${__ENVIRONMENT__}-${pkg.version}`,
+  //     tabIcon: '/icon.svg',
+  //   },
+  // },
   {
     option: 'Default',
     value: {
-      tabName: `v5-${__ENVIRONMENT__}-${pkg.version}`,
-      tabIcon: '/icon.svg',
+      tabName: `Home | Schoology`,
+      tabIcon: '/assets/img/schoology.ico',
     },
   },
   {
@@ -303,20 +310,20 @@ export const meta = [
 
 export const searchConfig = [
   {
+    option: 'DuckDuckGo',
+    value: {
+      engineName: 'DuckDuckGo',
+      engine: 'https://duckduckgo.com/?q=',
+      engineIcon: 'https://duckduckgo.com/favicon.ico',
+    },
+  },
+  {
     option: 'Google',
     value: {
       engineName: 'Google',
       engine: 'https://www.google.com/search?q=',
       engineIcon:
         'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Google_Favicon_2025.svg/120px-Google_Favicon_2025.svg.png',
-    },
-  },
-  {
-    option: 'DuckDuckGo',
-    value: {
-      engineName: 'DuckDuckGo',
-      engine: 'https://duckduckgo.com/?q=',
-      engineIcon: 'https://duckduckgo.com/favicon.ico',
     },
   },
   {
