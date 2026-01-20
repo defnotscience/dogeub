@@ -109,7 +109,7 @@ app.get("/js/script.js", proxy(() => "https://byod.privatedns.org/js/script.js")
 app.get("/ds", (req, res) => res.redirect("https://discord.com/404"));
 app.get("/return", async (req, reply) =>
   req.query?.q
-    ? fetch(`https://duckduckgo.com/ac/?q=${encodeURIComponent(req.query.q)}`)
+    ? fetch(`https://html.duckduckgo.com/ac/?q=${encodeURIComponent(req.query.q)}`)
         .then(r => r.json())
         .catch(() => reply.code(500).send({ error: "request failed" }))
     : reply.code(401).send({ error: "query parameter?" })

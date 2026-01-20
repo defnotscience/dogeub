@@ -169,6 +169,13 @@
       "icon": "https://www.google.com/s2/favicons?sz=128&domain=instagram.com",
       "url": "https://instagram.com",
       "disabled": false
+    },
+    {
+      "appName": "Media Downloader",
+      "desc": "Convert YouTube videos to MP3 or MP4 and download them with our fast and free YouTube converter",
+      "icon": "",
+      "url": "https://cnvmp3.com/v51",
+      "disabled": false
     }
   ],
   "games": {

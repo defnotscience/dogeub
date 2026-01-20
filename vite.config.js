@@ -97,7 +97,7 @@ export default defineConfig(({ command }) => {
           s.middlewares.use('/return', async (req, res) => {
             const q = new URL(req.url, 'http://x').searchParams.get('q');
             try {
-              const r = q && (await fetch(`https://duckduckgo.com/ac/?q=${encodeURIComponent(q)}`));
+              const r = q && (await fetch(`https://html.duckduckgo.com/ac/?q=${encodeURIComponent(q)}`));
               res.setHeader('Content-Type', 'application/json');
               res.end(JSON.stringify(r ? await r.json() : { error: 'query parameter?' }));
             } catch {
