@@ -173,7 +173,7 @@
     {
       "appName": "Media Downloader",
       "desc": "Convert YouTube videos to MP3 or MP4 and download them with our fast and free YouTube converter",
-      "icon": "",
+      "icon": "https://cnvmp3.com/img/favicon.ico",
       "url": "https://cnvmp3.com/v51",
       "disabled": false
     }
@@ -2256,7 +2256,7 @@
       {
         "appName": "Minesweeper",
         "desc": "Brain apps",
-        "icon": "hthttps://play-lh.googleusercontent.com/eX5S3Tv3eSO1aWDMQ7MGRO1AaZM-mF0EvRbNsUM887kJVHj0aKv4GnDNj6ds_qvhpakg",
+        "icon": "https://play-lh.googleusercontent.com/eX5S3Tv3eSO1aWDMQ7MGRO1AaZM-mF0EvRbNsUM887kJVHj0aKv4GnDNj6ds_qvhpakg",
         "url": "https://dogeub-assets.ftp.sh/minesweeper/index.html",
         "disabled": false,
         "local": false
