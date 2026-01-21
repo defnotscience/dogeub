@@ -106,7 +106,6 @@ const proxy = (url, type = "application/javascript") => async (req, reply) => {
 app.get("/assets/img/*", proxy(req => `https://dogeub-assets.pages.dev/img/${req.params["*"]}`, ""));
 app.get("/assets-fb/*", proxy(req => `https://dogeub-assets.ftp.sh/${req.params["*"]}`, ""));
 app.get("/js/script.js", proxy(() => "https://byod.privatedns.org/js/script.js"));
-app.get("/harper/games/", "/assets/games/");
 app.get("/ds", (req, res) => res.redirect("https://discord.com/404"));
 app.get("/return", async (req, reply) =>
   req.query?.q
