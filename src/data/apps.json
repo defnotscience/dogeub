@@ -1873,7 +1873,7 @@
         "appName": "Amaze!",
         "desc": "Brain apps",
         "icon": "https://play-lh.googleusercontent.com/hypAu2hPcTpg-FkZr7CjrWDspK_9Nm3UKvPWln9zaFUnIr-m6WQvEZ2baAaG0ufzrg",
-        "url": "https://cdn.jsdelivr.net/gh/rewz099/js-lib-cdn/amaze-js.zip",
+        "url": "/harper/games/amaze",
         "disabled": false,
         "local": true
       },

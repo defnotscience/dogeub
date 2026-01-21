@@ -15,7 +15,7 @@ dotenv.config();
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 const server = createServer();
 const bare = process.env.BARE !== "false" ? createBareServer("/seal/") : null;
 logging.set_level(logging.NONE);
@@ -106,6 +106,7 @@ const proxy = (url, type = "application/javascript") => async (req, reply) => {
 app.get("/assets/img/*", proxy(req => `https://dogeub-assets.pages.dev/img/${req.params["*"]}`, ""));
 app.get("/assets-fb/*", proxy(req => `https://dogeub-assets.ftp.sh/${req.params["*"]}`, ""));
 app.get("/js/script.js", proxy(() => "https://byod.privatedns.org/js/script.js"));
+app.get("/harper/games/*", proxy(req => `/assets/games/${req.params["*"]}`, ""));
 app.get("/ds", (req, res) => res.redirect("https://discord.com/404"));
 app.get("/return", async (req, reply) =>
   req.query?.q
