@@ -75,7 +75,7 @@ const scrwlist = new Set([
   )
 ]);
 
-export const process = (input, decode = false, prType, engine = "https://www.google.com/search?q=") => {
+export const process = (input, decode = false, prType, engine = "https://www.duckduckgo.com/?q=") => {
   let prefix;
 
   switch (prType) {
